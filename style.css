@@ -1,0 +1,486 @@
+/* General Styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather", serif;
+}
+
+.all-content {
+    background: #f7f5f2;
+}
+
+html ::-webkit-scrollbar-track {
+    background: transparent;
+}
+html ::-webkit-scrollbar-thumb {
+    background: #b2744c;
+    border-radius: 10px;
+}
+html ::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* navebar start */
+#navbar {
+    background-color: #b2744c;
+}
+#logo img {
+    border-radius: 10px;
+    width: 160px;
+    margin-left: 40px;
+}
+.navbar-nav {
+    margin-left: 50px;
+}
+.nav-item .nav-link {
+    color: black;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.nav-item .nav-link:hover {
+    background: #f7f5f2;
+    border-radius: 5px;
+    color: black;
+}
+#navbar form button {
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+
+
+/* navbar end */
+
+
+/* home section start */
+
+#home {
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./imgs/cafe-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 88%;
+}
+#home .content{
+    padding-top: 210px;
+    margin-left: 56px;
+}
+#home .content h3{
+    font-size: 50px;
+    color: white;
+}
+#home .content p{
+    margin-top: 10px;
+    color: white;
+}
+#btn{
+    width: 150px;
+    height: 36px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn:hover{
+    background: #b2744c;
+    color: white;
+}
+
+/* home section end */
+
+
+/* about section start */
+
+#about {
+    width: 100%;
+    height: 100vh;
+}
+#about .container {
+    padding: 70px;
+}
+.heading {
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+.heading span {
+    color: #b2744c;
+}
+#about .card {
+    border-radius: 10px;
+}
+#about .card img {
+    border-radius: 10px;
+}
+#about-btn {
+    width: 200px;
+    height: 36px;
+    background: transparent;
+    border: 2px solid #b2744c;
+    color: #b2744c;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#about-btn:hover {
+    color: white;
+    background: #b2744c;
+}
+/* about section end */
+
+
+/* top card start */
+
+
+#top-cards {
+    width: 100%;
+    background: #f7f5f2;
+    margin-top: 60px;
+}
+.heading2 {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.heading2 span {
+    color: #b2744c;
+}
+#top-cards .container {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+#top-cards .card {
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+#top-cards .card img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/* top card end */
+
+
+/* menu start */
+
+#menu{
+    width: 100%;
+    margin-top: 100px;
+}
+.heading3{
+    text-align: center;
+    font-size: 30px;
+    color: #b2744c;
+    font-weight: bold;
+    border-bottom: 2px solid #b2744c;
+}
+#container2{
+    margin-top: 50px;
+}
+#menu .card{
+    box-shadow: rgba(149,157,165,0.2) 0px 8px 24px ;
+}
+.star i{
+    color: #b2744c;
+}
+#menu h3{
+    text-align: center;
+    color: #b2744c;
+    font-size: 25px;
+    margin-top: 10px;
+}
+#menu p{
+    font-size: 16px;
+    padding-top: 10px;
+    color: #b2744c;
+}
+#menu p span{
+    float: right;
+    cursor: pointer;
+}
+/* menu end */
+
+
+
+
+
+#product {
+    width: 100%;
+    height: auto;
+    padding-top: 60px;
+}
+.heading4 {
+    text-align: center;
+    color: #b2744c;
+    font-size: 30px;
+    padding-top: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid #b2744c;
+}
+#container3 {
+    margin-top: 30px;
+}
+#product h3 {
+    text-align: center;
+    font-size: 23px;
+    color: #b2744c;
+}
+#product p {
+    padding-top: 10px;
+    color: #b2744c;
+}
+#product p span {
+    float: right;
+    cursor: pointer;
+}
+
+/* Gallery Section */
+#gallary {
+    width: 100%;
+}
+.heading5 {
+    color: black;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+#gallary .heading5 span {
+    color: #b2744c;
+}
+#gallary .card {
+    border-radius: 10px;
+    cursor: pointer;
+}
+#gallary .card img {
+    border-radius: 10px;
+}
+
+/* Contact Section */
+#contact {
+    width: 100%;
+    padding-top: 80px;
+}
+#contact .container {
+    width: 100%;
+    background: linear-gradient(90deg, white 80%, #b2744c 20%);
+    border-radius: 10px;
+    padding: 30px;
+}
+.heading6 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+.heading6 span {
+    color: #b2744c;
+}
+#contact p {
+    font-weight: bold;
+    font-size: 13px;
+    color: black;
+}
+#contact input {
+    width: 100%;
+    max-width: 360px;
+    border: none;
+    border-bottom: 1px solid #b2744c;
+}
+#contact-btn {
+    width: 200px;
+    height: 36px;
+    border: none;
+    background: #b2744c;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#col {
+    width: 100%;
+    max-width: 400px;
+    background: black;
+    margin-top: 56px;
+    padding: 20px;
+    border-radius: 10px;
+}
+#contact h1 {
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+}
+#contact #col p {
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+/* Blog Section */
+#blog {
+    width: 100%;
+}
+#blog .heading7 {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+#blog .heading7 span {
+    color: #b2744c;
+}
+#blog .container {
+    margin-top: 60px;
+}
+#blog h5 {
+    color: #b2744c;
+}
+#blog-btn {
+    width: 200px;
+    height: 36px;
+    border: none;
+    color: white;
+    background: #b2744c;
+    cursor: pointer;
+}
+
+/* Footer Section */
+#footer {
+    width: 100%;
+    background: #b2744c;
+    margin-top: 50px;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+.footer-logo img {
+    width: 180px;
+    border-radius: 10px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.socail-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Adds space between each social icon */
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.socail-links i {
+    padding: 10px;
+    background: black;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.socail-links i:hover {
+    background: #333;
+}
+
+.credits {
+    color: white;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.credits a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.arrow {
+    position: fixed;
+    height: 50px;
+    bottom: 40px;
+    right: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+/* Media Queries */
+
+/* Tablets */
+@media screen and (max-width: 768px) {
+    #home .content {
+        padding-top: 150px;
+        margin-left: 20px;
+    }
+    #home .content h3 {
+        font-size: 30px;
+    }
+    #btn {
+        width: 120px;
+    }
+    #top-cards .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    #top-cards .card, #gallary .card {
+        width: 90%;
+    }
+    #about .container, #contact .container {
+        padding: 20px;
+    }
+    .heading, .heading4, .heading5, .heading6 {
+        font-size: 24px;
+    }
+    #col {
+        width: 100%;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+    #contact .container {
+        background: white;
+    }
+    #contact input {
+        width: 100%;
+    }
+    .heading, .heading4, .heading5, .heading6, .heading7 {
+        font-size: 20px;
+    }
+    #footer .footer-logo img {
+        width: 120px;
+    }
+    #contact {
+        padding-top: 60px;
+    }
+    #col {
+        width: 100%;
+        padding: 20px;
+    }
+    .socail-links {
+        font-size: 14px;
+        padding: 8px;
+    }
+    .arrow {
+        height: 40px;
+        bottom: 30px;
+        right: 20px;
+    }
+}
